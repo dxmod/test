@@ -1,16 +1,16 @@
 {
-"name": "dxmod/test",
+    "name": "dxmod/test",
     "type": "project",
     "description": "composer test", 
- "require": {
+    "require": {
         "php":">=5.3.0",
         "phpmailer/phpmailer": "~6.1",
         "npm-asset/vue": "dev-master"
-},
-"repositories": [
+    },
+    "repositories": [
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
- ],
+    ]
 }
